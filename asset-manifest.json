@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/VCOM/static/css/main.c40bc281.css",
+    "main.js": "/VCOM/static/js/main.bc14369c.js",
+    "static/js/453.01138ce9.chunk.js": "/VCOM/static/js/453.01138ce9.chunk.js",
+    "static/media/cockpit_hmi.jpg": "/VCOM/static/media/cockpit_hmi.50b0df3f68a5f028f53d.jpg",
+    "index.html": "/VCOM/index.html",
+    "main.c40bc281.css.map": "/VCOM/static/css/main.c40bc281.css.map",
+    "main.bc14369c.js.map": "/VCOM/static/js/main.bc14369c.js.map",
+    "453.01138ce9.chunk.js.map": "/VCOM/static/js/453.01138ce9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c40bc281.css",
+    "static/js/main.bc14369c.js"
+  ]
+}
