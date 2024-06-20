@@ -1,0 +1,148 @@
+body {
+  background-color: black;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.App-header {
+  position: absolute;
+  height: 85vh;
+  width: 100vw;
+  z-index: 1;
+  background-image: url('./media/cockpit_hmi.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.phrase-display {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: default;
+  text-decoration: none;
+  user-select: none;
+}
+
+.Log-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.navigation {
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 18px;
+  /* Aumenta la dimensione del testo del bottone */
+  padding: 12px 24px;
+  /* Aumenta il padding del bottone */
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+p {
+  font-size: 37px;
+  /* Aumenta la dimensione del testo generale */
+}
+
+.alert {
+  display: flex;
+  justify-content: center;
+  width: 30vw;
+  gap: 10px;
+  padding: 15px;
+  position: absolute;
+  left: 1;
+  bottom: 1;
+  margin: 10px;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  transition: transform 0.3s ease-in-out;
+  font-size: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  cursor: default;
+  text-decoration: none;
+  user-select: none;
+  animation: fadeIn 0.5s;
+}
+
+.alert p {
+  margin: 0;
+}
+
+.positive {
+  color: green;
+  background-color: rgba(230, 255, 237, 0.9);
+  /* Aumenta l'opacità per maggiore contrasto */
+  border-color: green;
+}
+
+.negative {
+  color: red;
+  background-color: rgba(255, 235, 235, 0.9);
+  /* Aumenta l'opacità per maggiore contrasto */
+  border-color: red;
+}
+
+.doubt {
+  color: orange;
+  background-color: rgba(255, 244, 229, 0.9);
+  /* Aumenta l'opacità per maggiore contrasto */
+  border-color: orange;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.logs-page.green-background .Log-header {
+  background-color: green !important;
+}
+
+.logs-container {
+  max-height: 60vh;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  background-color: #fff;
+  color: black;
+  border-radius: 1rem;
+  width: 90%;
+  box-sizing: border-box;
+}
