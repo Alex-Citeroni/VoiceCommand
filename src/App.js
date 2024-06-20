@@ -9,8 +9,8 @@ function App() {
     <LogProvider>
       <Router>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/pier" element={<LogsPage />} />
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/logs" element={<LogsPage />} />
         </Routes>
       </Router>
     </LogProvider>
