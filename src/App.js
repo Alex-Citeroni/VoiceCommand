@@ -9,8 +9,8 @@ function App() {
     <LogProvider>
       <Router>
         <Routes>
-          <Route path="/VCOM" element={<HomePage />} />
-          <Route path="/pier" element={<LogsPage />} />
+          <Route path="/VoiceCommand" element={<HomePage />} />
+          <Route path="/VoiceCommand/pier" element={<LogsPage />} />
         </Routes>
       </Router>
     </LogProvider>

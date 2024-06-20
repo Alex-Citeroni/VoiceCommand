@@ -47,7 +47,7 @@ function LogsPage() {
                     )}
                 </div>
                 <div className="navigation">
-                    <Link to="/VCOM">
+                    <Link to="/VoiceCommand">
                         <button>Torna alla Home</button>
                     </Link>
                 </div>
