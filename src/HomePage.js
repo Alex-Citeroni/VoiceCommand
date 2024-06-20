@@ -211,7 +211,6 @@ function HomePage() {
                         <p>Non ho capito</p>
                     </div>
                 )}
-
             </header>
             <div className="phrase-display">
                 <p>{phraseIndex < phrases.length ? phrases[phraseIndex] : "I COMANDI SONO FINITI"}</p>
