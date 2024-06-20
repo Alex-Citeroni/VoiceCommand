@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/VCOM/static/css/main.c40bc281.css",
-    "main.js": "/VCOM/static/js/main.bc14369c.js",
-    "static/js/453.01138ce9.chunk.js": "/VCOM/static/js/453.01138ce9.chunk.js",
-    "static/media/cockpit_hmi.jpg": "/VCOM/static/media/cockpit_hmi.50b0df3f68a5f028f53d.jpg",
-    "index.html": "/VCOM/index.html",
-    "main.c40bc281.css.map": "/VCOM/static/css/main.c40bc281.css.map",
-    "main.bc14369c.js.map": "/VCOM/static/js/main.bc14369c.js.map",
-    "453.01138ce9.chunk.js.map": "/VCOM/static/js/453.01138ce9.chunk.js.map"
+    "main.css": "/VoiceCommand/static/css/main.9070fbd9.css",
+    "main.js": "/VoiceCommand/static/js/main.6c8cafc5.js",
+    "static/js/453.01138ce9.chunk.js": "/VoiceCommand/static/js/453.01138ce9.chunk.js",
+    "static/media/cockpit_hmi.jpg": "/VoiceCommand/static/media/cockpit_hmi.50b0df3f68a5f028f53d.jpg",
+    "index.html": "/VoiceCommand/index.html",
+    "main.9070fbd9.css.map": "/VoiceCommand/static/css/main.9070fbd9.css.map",
+    "main.6c8cafc5.js.map": "/VoiceCommand/static/js/main.6c8cafc5.js.map",
+    "453.01138ce9.chunk.js.map": "/VoiceCommand/static/js/453.01138ce9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c40bc281.css",
-    "static/js/main.bc14369c.js"
+    "static/css/main.9070fbd9.css",
+    "static/js/main.6c8cafc5.js"
   ]
 }
