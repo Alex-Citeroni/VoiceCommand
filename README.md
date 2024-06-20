@@ -18,6 +18,8 @@ Fa andare avanti le frasi
 
 Da un response con un delay casuale
 
+## Pagine
+
 ### [HomePage](https://alex-citeroni.github.io/VoiceCommand/)
 
 Pagina iniziale
