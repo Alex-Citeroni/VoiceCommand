@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './HomePage';
 import LogsPage from './LogsPage';
 import { LogProvider } from './LogContext';
@@ -9,8 +9,8 @@ function App() {
     <LogProvider>
       <Router>
         <Routes>
-          <Route path="/VoiceCommand/" element={<HomePage />} />
-          <Route path="/VoiceCommand/logs" element={<LogsPage />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/logs" element={<LogsPage />} />
         </Routes>
       </Router>
     </LogProvider>
