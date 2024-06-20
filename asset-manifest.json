@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/VoiceCommand/static/css/main.9070fbd9.css",
-    "main.js": "/VoiceCommand/static/js/main.6c8cafc5.js",
+    "main.js": "/VoiceCommand/static/js/main.18cb5248.js",
     "static/js/453.01138ce9.chunk.js": "/VoiceCommand/static/js/453.01138ce9.chunk.js",
     "static/media/cockpit_hmi.jpg": "/VoiceCommand/static/media/cockpit_hmi.50b0df3f68a5f028f53d.jpg",
     "index.html": "/VoiceCommand/index.html",
     "main.9070fbd9.css.map": "/VoiceCommand/static/css/main.9070fbd9.css.map",
-    "main.6c8cafc5.js.map": "/VoiceCommand/static/js/main.6c8cafc5.js.map",
+    "main.18cb5248.js.map": "/VoiceCommand/static/js/main.18cb5248.js.map",
     "453.01138ce9.chunk.js.map": "/VoiceCommand/static/js/453.01138ce9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9070fbd9.css",
-    "static/js/main.6c8cafc5.js"
+    "static/js/main.18cb5248.js"
   ]
 }
