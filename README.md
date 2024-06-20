@@ -18,6 +18,10 @@ Fa andare avanti le frasi
 
 Da un response con un delay casuale
 
-### /pier
+### [HomePage](https://alex-citeroni.github.io/VoiceCommand/)
+
+Pagina iniziale
+
+### [Logs](https://alex-citeroni.github.io/VoiceCommand/#/logs)
 
 Pagina che permette di mostrare i log, scaricarli e cancellarli.
